@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerificacaoChamadas", "VerificacaoChamadas\VerificacaoChamadas.csproj", "{FA2DBBF0-AC42-4D05-A221-2F6E1458CC07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notificacao", "Notificacao\Notificacao.csproj", "{592F18E2-22FF-4DB1-8414-78FFE307DC2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disparador", "Notificacao\Disparador.csproj", "{592F18E2-22FF-4DB1-8414-78FFE307DC2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
