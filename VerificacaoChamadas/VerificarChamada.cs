@@ -81,21 +81,30 @@ namespace VerificacaoChamadas
         #endregion
 
 
-        public void Processar(int idProcesso)
+        public bool Processar(int idProcesso)
         {
-
-            if (idProcesso == 0)
-                return;
-
-            var processoExecucao = Process.GetProcessById(idProcesso);
-
             var usuario = BuscarUsuario();
+            try
+            {
 
-            if (processoExecucao.Responding)
-                AtivarStatusNaTabela(usuario);
-            else
+                if (idProcesso == 0)
+                    return false;
+
+                var processoExecucao = Process.GetProcessById(idProcesso);
+
+                
+
+                if (processoExecucao.Responding)
+                    AtivarStatusNaTabela(usuario);
+
+                return true;
+
+            }
+            catch (Exception ex)
+            {
                 DesativarStatusNaTabela(usuario);
-
+                return false;
+            }
 
 
 
