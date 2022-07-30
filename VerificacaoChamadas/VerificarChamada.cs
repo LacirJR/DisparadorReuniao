@@ -92,8 +92,6 @@ namespace VerificacaoChamadas
 
                 var processoExecucao = Process.GetProcessById(idProcesso);
 
-                
-
                 if (processoExecucao.Responding)
                     AtivarStatusNaTabela(usuario);
 

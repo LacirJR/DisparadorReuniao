@@ -14,14 +14,7 @@ namespace VerificacaoChamadas
             while (!stoppingToken.IsCancellationRequested)
             {
            
-                bool mensagem = _service.Processar(Entidade.Processo.ProcessoID);
-                if (mensagem)
-                    File.AppendAllText(@"C:\Users\Lacir Junior\Desktop\logTeste.txt", "ID: " + Entidade.Processo.ProcessoID + " Ativo as " + DateTime.Now.ToString("G") + Environment.NewLine);
-                else
-                {
-                    File.AppendAllText(@"C:\Users\Lacir Junior\Desktop\logTeste.txt", "ID: " + Entidade.Processo.ProcessoID + " Inativo as " + DateTime.Now.ToString("G") + Environment.NewLine);
-                    return;
-                }
+                bool verificarContinuacao = _service.Processar(Entidade.Processo.ProcessoID);
 
                 await Task.Delay(1000, stoppingToken);
             }
