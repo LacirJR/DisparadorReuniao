@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VerificacaoChamadas", "VerificacaoChamadas\VerificacaoChamadas.csproj", "{FA2DBBF0-AC42-4D05-A221-2F6E1458CC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notificacao", "Notificacao\Notificacao.csproj", "{592F18E2-22FF-4DB1-8414-78FFE307DC2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA2DBBF0-AC42-4D05-A221-2F6E1458CC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2DBBF0-AC42-4D05-A221-2F6E1458CC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2DBBF0-AC42-4D05-A221-2F6E1458CC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2DBBF0-AC42-4D05-A221-2F6E1458CC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592F18E2-22FF-4DB1-8414-78FFE307DC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592F18E2-22FF-4DB1-8414-78FFE307DC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592F18E2-22FF-4DB1-8414-78FFE307DC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592F18E2-22FF-4DB1-8414-78FFE307DC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89910FDC-666D-4687-88CB-3F0AE222B2F7}
+	EndGlobalSection
+EndGlobal
