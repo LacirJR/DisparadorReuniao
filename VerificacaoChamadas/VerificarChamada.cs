@@ -56,7 +56,7 @@ namespace VerificacaoChamadas
             {
                 usuario.Ativo = true;
                 usuario.HorarioAtivo = DateTime.Now;
-                usuario.Notificacao = true;
+                usuario.Notificacao = false;
                 _sql.Usuarios.Update(usuario);
                 _sql.SaveChanges();
             }
